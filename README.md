@@ -1,21 +1,26 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# mce2: Metacommunity Ecology Version 2.0
+# mce2
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of mce2 is to …
+## Overview
+
+mce2 is associated to the manuscript “Rethinking Metacommunity Ecology”.
+The purpose of the package is to make the tools used in the paper more
+accessible to the readers. This package can simulate metacommunity data,
+and also analyze and create visualizations for ‘HMSC’ outputs.
 
 ## Installation
 
-You can install the released version of mce2 from
-[CRAN](https://CRAN.R-project.org) with:
-
 ``` r
-install.packages("mce2")
+# You can install this package from GitHub:
+# install.packages("devtools")
+
+devtools::install_github("javirudolph/mce2")
 ```
 
 ## Example
