@@ -1,28 +1,18 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # mce2: Metacommunity Ecology Version 2.0
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of mce2 is to ...
+The goal of mce2 is to …
 
 ## Installation
 
-You can install the released version of mce2 from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of mce2 from
+[CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("mce2")

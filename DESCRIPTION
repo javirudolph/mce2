@@ -1,5 +1,5 @@
 Package: mce2
-Title: What the Package Does (One Line, Title Case)
+Title: Metacommunity simulation and analysis version 2
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
@@ -11,3 +11,5 @@ Description: What the package does (one paragraph).
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/javirudolph/mce2
+BugReports: https://github.com/javirudolph/mce2/issues
