@@ -14,3 +14,7 @@ LazyData: true
 URL: https://github.com/javirudolph/mce2
 BugReports: https://github.com/javirudolph/mce2/issues
 RoxygenNote: 6.1.1
+Imports: 
+    magrittr,
+    ggtern,
+    corrplot

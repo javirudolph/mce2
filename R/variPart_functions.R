@@ -1,5 +1,5 @@
 #' @title Variation partinioning: species
-#' @desctiption use of the VariPart function from HMSC, gets results at the level of species
+#' @description use of the VariPart function from HMSC, gets results at the level of species
 #' @param HMSCmodel output from the metacom_as_HMSCdata() or an object from as.HMSCdata()
 #' @param MEMsel distance-based Moran' Eigenvector Map's eigenvector maps from a geographic distance matrix (xy matrix). This comes from adespatial::dbmem()
 #' @param numClusters number of clusters based on number of cores available to work with DoParallel
@@ -38,7 +38,7 @@ get_VPresults <- function(HMSCmodel, MEMsel, numClusters,
 }
 
 #' @title Variation partinioning: sites
-#' @desctiption use of the VariPart function from HMSC, gets results at the level of species
+#' @description use of the VariPart function from HMSC, gets results at the level of species
 #' @param HMSCmodel output from the metacom_as_HMSCdata() or an object from as.HMSCdata()
 #' @param MEMsel distance-based Moran' Eigenvector Map's eigenvector maps from a geographic distance matrix (xy matrix). This comes from adespatial::dbmem()
 #' @param numClusters number of clusters based on number of cores available to work with DoParallel

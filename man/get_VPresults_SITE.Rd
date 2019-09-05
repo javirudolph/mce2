@@ -21,7 +21,7 @@ get_VPresults_SITE(HMSCmodel, MEMsel, numClusters, makeRDS = FALSE,
 \item{objName}{should the RDS file be saved, what should it be called?}
 }
 \description{
-Variation partinioning: sites
+use of the VariPart function from HMSC, gets results at the level of species
 }
 \details{
 I think this function can probably just be incorporated into the VariPart for species if we include and if statement for sites = TRUE

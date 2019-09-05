@@ -21,5 +21,5 @@ get_VPresults(HMSCmodel, MEMsel, numClusters, makeRDS = FALSE,
 \item{objName}{should the RDS file be saved, what should it be called?}
 }
 \description{
-Variation partinioning: species
+use of the VariPart function from HMSC, gets results at the level of species
 }
