@@ -4,8 +4,7 @@
 \alias{base_spp_plot}
 \title{Base Plots: Species}
 \usage{
-base_spp_plot(data, plotMain = NULL, colorVar = NULL,
-  colorLegend = "none")
+base_spp_plot(data, plotMain = NULL, colorVar = NULL, colorLegend = "none")
 }
 \arguments{
 \item{data}{formatted data from get_spp_data()}

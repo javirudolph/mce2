@@ -4,8 +4,7 @@
 \alias{interaction_plot}
 \title{Create the species correlation matrices}
 \usage{
-interaction_plot(folderpath, scenario, iteration = NULL,
-  corTitle = NULL)
+interaction_plot(folderpath, scenario, iteration = NULL, corTitle = NULL)
 }
 \arguments{
 \item{folderpath}{path to stored RDS files from the get_VP_results()}

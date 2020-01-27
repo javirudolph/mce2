@@ -4,9 +4,18 @@
 \alias{metacom_sim4HMSC_multParams}
 \title{Metacommunity Simulation for multiple sets of parameters}
 \usage{
-metacom_sim4HMSC_multParams(XY, E, pars, nsteps, occupancy, niter,
-  envResp = "quadratic", makeRDS = FALSE, whereToSave = NULL,
-  objName = NULL)
+metacom_sim4HMSC_multParams(
+  XY,
+  E,
+  pars,
+  nsteps,
+  occupancy,
+  niter,
+  envResp = "quadratic",
+  makeRDS = FALSE,
+  whereToSave = NULL,
+  objName = NULL
+)
 }
 \arguments{
 \item{XY}{coordinates for each of the sites or patches}

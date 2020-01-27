@@ -4,8 +4,7 @@
 \alias{base_sites_plot}
 \title{Base Plots: Sites}
 \usage{
-base_sites_plot(data, plotMain = NULL, colorVar = NULL,
-  colorLegend = "none")
+base_sites_plot(data, plotMain = NULL, colorVar = NULL, colorLegend = "none")
 }
 \arguments{
 \item{data}{formatted data from get_sites_data()}

@@ -13,7 +13,7 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/javirudolph/mce2
 BugReports: https://github.com/javirudolph/mce2/issues
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 Imports: 
     magrittr,
     ggtern,

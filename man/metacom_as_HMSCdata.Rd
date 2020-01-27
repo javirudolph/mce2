@@ -4,8 +4,16 @@
 \alias{metacom_as_HMSCdata}
 \title{Format metacommunity data to "HMSC" classes}
 \usage{
-metacom_as_HMSCdata(metacomData, numClusters, E, MEMsel, hmscPars = NULL,
-  makeRDS = FALSE, whereToSave = NULL, objName = NULL)
+metacom_as_HMSCdata(
+  metacomData,
+  numClusters,
+  E,
+  MEMsel,
+  hmscPars = NULL,
+  makeRDS = FALSE,
+  whereToSave = NULL,
+  objName = NULL
+)
 }
 \arguments{
 \item{metacomData}{list of simulated metacommunity matrices. Output from metacom_sim4HMSC() or metacom_sim4HMSC_multiparam()}

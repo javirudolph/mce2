@@ -4,10 +4,19 @@
 \alias{prep_pars}
 \title{Prepare metacommunity parameters}
 \usage{
-prep_pars(N = NULL, D = NULL, R = NULL, nicheOpt = NULL,
-  breadth = NULL, alpha = NULL, interx_col = NULL,
-  interx_ext = NULL, makeRDS = FALSE, whereToSave = NULL,
-  objName = NULL)
+prep_pars(
+  N = NULL,
+  D = NULL,
+  R = NULL,
+  nicheOpt = NULL,
+  breadth = NULL,
+  alpha = NULL,
+  interx_col = NULL,
+  interx_ext = NULL,
+  makeRDS = FALSE,
+  whereToSave = NULL,
+  objName = NULL
+)
 }
 \arguments{
 \item{N}{number of patches for the simulation}

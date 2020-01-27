@@ -4,8 +4,14 @@
 \alias{get_VPresults}
 \title{Variation partinioning: species}
 \usage{
-get_VPresults(HMSCmodel, MEMsel, numClusters, makeRDS = FALSE,
-  whereToSave = NULL, objName = NULL)
+get_VPresults(
+  HMSCmodel,
+  MEMsel,
+  numClusters,
+  makeRDS = FALSE,
+  whereToSave = NULL,
+  objName = NULL
+)
 }
 \arguments{
 \item{HMSCmodel}{output from the metacom_as_HMSCdata() or an object from as.HMSCdata()}

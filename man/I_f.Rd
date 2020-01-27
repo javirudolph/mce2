@@ -4,8 +4,11 @@
 \alias{I_f}
 \title{Metacommunity process: immigration}
 \usage{
-I_f(Y = "Species occurrence matrix", K = "Patch connectivity matrix",
-  m = "outside immigration")
+I_f(
+  Y = "Species occurrence matrix",
+  K = "Patch connectivity matrix",
+  m = "outside immigration"
+)
 }
 \arguments{
 \item{Y}{matrix of species occurrence}
