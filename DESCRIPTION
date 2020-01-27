@@ -2,11 +2,11 @@ Package: mce2
 Title: Metacommunity simulation and analysis version 2
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Javiera",
+           family = "Rudolph",
            role = c("aut", "cre"),
            email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "https://orcid.org/0000-0002-7124-4649"))
 Description: What the package does (one paragraph).
 License: GPL-3
 Encoding: UTF-8
@@ -18,3 +18,7 @@ Imports:
     magrittr,
     ggtern,
     corrplot
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
